@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>WebPayPopup-Index</title>
+    <link href="Scripts/colorbox.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="border-top: solid 10px #000;color: #333;font-size: .85em; font-family: 'Segoe UI' Verdana, Helvetica, Sans-Serif; margin: 10px 100px 10px 100px">
+     <br />
+    <h2>WebPay in Popup</h2>
+    
+    <a class="iframe" href="readme.html">Important!!!</a>
+    <hr/>
+
+    <h3>To post automatically</h3>
+    <a class='iframe otherclassnames' href="autopost_popup.html">Pay</a>
+    
+    <h3>To have the user submit the page</h3>
+    <a class='iframe otherclassnames' href="userpost_popup.html">Pay</a>
+    
+    <h3>Full page redirect</h3>
+    <a class='iframe otherclassnames' href="fullredirect_popup.html">Pay</a>
+    
+</body>
+    <script src="Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/jquery.colorbox-min.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $(".iframe").colorbox({ iframe: true, fastIframe: false, escKey: false, overlayClose: false, innerWidth: 503, innerHeight: 600, returnFocus: false, scrolling: false });
+        })
+</script>
+</html>
